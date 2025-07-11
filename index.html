@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style> 
-    div{
-        display:none;
-    }
-    button:active + div{
-        display: block; 
-    }
-    </style>
 </head>
 <body>
-    <button>Abrir regalo></button>
-    <div>😈</div>
+    <h2>Crear formulario</h2>
+    <form class="form-create"> <!-- <- Clase corregida -->
+        <label for="publicacion">Contenido:</label>
+        <input type="text" name="publicacion" id="publicacion" required>
+        <input type="submit" value="Publicar">
+    </form>
+
+    <div class="contenedor-publicaciones">
+        <!-- Aquí se mostrarán las publicaciones -->
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
