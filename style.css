@@ -6,15 +6,18 @@
     box-shadow: 0 0 6px black;
     border-radius: 20px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column  ;
+    justify-content: space-between;
+    gap:20px;
     
 }
 .publicacion{
     display: flex;
-    justify-content: block;
-    width: 30%;
-    align-items: start;
     flex-direction: column;
+    width: auto;
+    align-items: start;
     background-color: white;
     border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 6px black;;
 }
