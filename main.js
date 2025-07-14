@@ -1,4 +1,5 @@
 const formulario = document.querySelector(".form-create");
+let contador = 1;
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -12,7 +13,8 @@ formulario.addEventListener("submit", (e) => {
 
     // Agregar contenido
     nuevaPublicacion.innerHTML = `
-        <p>Id: 00</p>
+        <div class="publicacion">
+        <p>Id:${contador++}</p>
         <p>${publicacion}</p>
         <button class="btn-editar">Editar</button>
         <button class="btn-eliminar">Eliminar</button>

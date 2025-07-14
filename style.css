@@ -1,0 +1,20 @@
+.contenedor-publicaciones{
+    width: 80%;
+    margin: 20px auto;
+    background: linear-gradient(45deg,#9736fe, #c73bee, #fe9ff4);
+    padding: 30px 20px;
+    box-shadow: 0 0 6px black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.publicacion{
+    display: flex;
+    justify-content: block;
+    width: 30%;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
